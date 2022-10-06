@@ -1,0 +1,367 @@
+@import "fonts/font.css";
+/* custom style */
+.btn-auth-sec a {
+    line-height: 1.8em;
+}
+
+.btn-auth-sec a {
+    font-family: 'iransansdn', sans-serif;
+}
+
+.btn-auth-sec .btn-light {
+    background: transparent;
+}
+
+.btn-auth-sec .btn {
+    color: #fff;
+}
+
+.btn-auth-sec .fa-shopping-basket {
+    font-size: 1.8rem;
+    color: orangered;
+}
+
+.btn-auth-sec .btn {
+    background-color: transparent;
+}
+.btn-auth-sec li{
+    width: 86px;
+}
+.navbar-brand {
+    font-family: iransans_num_bold, sans-serif;
+    color: #3195FF !important;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.navbar-toggler {
+    background: #FFFFFF;
+}
+.navbar-toggler .fa-bars{
+    font-size: 1.8rem;
+    color: #3195FF;
+}
+.header-wrap .container{
+    border-bottom: 1px solid #51585e;
+}
+/* end navbar */
+.header-down .nav .nav-link {
+    color: #ffffff;
+    font-family: iransansdn, sans-serif;
+}
+.header-down-wrapper,
+.header-wrap {
+    background-color: #1f1f1f;
+}
+
+.header-down {
+    height: auto;
+}
+
+/* heroes */
+.heroes-wrap {
+    background-color: #1f1f1f;
+}
+
+
+.heroes-img {
+    position: relative;
+    background: url("images/heroes-img-convert-2.png") no-repeat center center/cover;
+    height: 1000px;
+    width: 100%;
+
+}
+
+.heroes-content h1, h4, h6 {
+    font-family: iransansdn, sans-serif;
+    color: #ffffff;
+}
+
+.heroes-content h1 {
+
+    font-size: 5rem;
+}
+
+.heroes-content h6 {
+    font-size: 1.5rem;
+}
+
+/* search box */
+.search-box {
+    background: #3195FF;
+    height: 100px;
+}
+
+.search-box .col-lg-10 {
+    margin: auto 0 auto 0;
+}
+
+.search-box-content .input-group-text {
+    border-color: #3195FF;
+    background: #000000;
+}
+
+.search-box-content .form-control {
+    background: #ffffff;
+    border-right: #3195FF;
+    color: #000000;
+}
+
+.search-box-content .fa-search {
+    color: #ffffff;
+}
+
+.search-box-content input[type="text"] {
+    font-family: iransansdn, sans-serif;
+}
+
+/* main content */
+.main-content .card .card-footer p {
+    font-family: iransansdn, sans-serif;
+}
+
+/* most visited  & main content */
+.most-visited-wrapper {
+    background-image: url("images/bg-pattern-1.png");
+}
+
+.current-project-wrapper {
+    background: #3195FF;
+}
+
+.project-done-content .col-md-3-3,
+.current-project-content .col-md-3,
+.most-visited-content .col-md-3 {
+    margin: 20px 0 20px 0;
+}
+
+
+/* section title */
+.section-title {
+    width: 250px;
+    border-bottom: 2px solid #3195FF;
+    padding: 30px 0 20px 0;
+    margin-bottom: 16px;
+}
+
+.current-project .section-title {
+    border-bottom: 2px solid #ffffff;
+}
+
+.current-project .section-title-content {
+    color: #ffffff;
+}
+
+.section-title-content {
+    font-family: iransansdn, sans-serif;
+    color: #3195FF;
+    font-size: 1.4rem;
+}
+
+
+.main-content .card .card-text .desc {
+    font-family: iransansdn, sans-serif;
+    color: black !important;
+    font-size: 1em;
+    text-align: justify;
+    margin: 0;
+}
+
+.main-content .card-body img {
+    margin-bottom: 18px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.most-visited-content .card {
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 2px solid;
+}
+
+.project-done-content .card {
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 2px solid;
+    border-radius: 0;
+}
+
+.main-content .continue {
+    text-align: left;
+    margin: 0;
+}
+
+.main-content .continue a {
+    text-decoration: none;
+    font-family: iransansdn, sans-serif;
+    color: #ffffff;
+    background: #3195FF;
+}
+
+/* introduce */
+.introduce-wrapper {
+    height: auto;
+    background: url("images/bg-pattern-1.png");
+
+}
+
+.introduce-title {
+    border-bottom: 2px solid #F36480;
+}
+
+.intro-desc,
+.intro-image {
+    margin-top: 20px;
+    height: 300px;
+    background: #1f1f1f;
+}
+
+.intro-desc p,
+.intro-image p {
+    padding: 20px 0 20px 0;
+    font-family: iransansdn, sans-serif;
+    font-size: larger;
+    color: #ffffff;
+}
+
+.intro-desc {
+    border: 2px solid #51585e;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 2px #51585e;
+
+}
+
+.intro-image {
+    border: 2px solid #51585e;
+    border-radius: 5px;
+    box-shadow: -2px 2px 3px 2px #51585e;
+}
+
+/* footer */
+
+.footer-wrapper {
+    background: #1f1f1f;
+    height: auto;
+}
+
+.footer-project-order div a {
+    font-family: iransansdn, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.footer-project-order div a:hover {
+    color: #ff253a;
+}
+
+.footer-project-order div {
+    height: 70px;
+    border-radius: 5px;
+}
+
+.footer-content {
+    margin-top: 20px;
+}
+
+.footer-content .footer-news, .footer-links {
+    height: auto;
+}
+
+.footer-news input[type='text'],
+.footer-news input[type='email'] {
+    text-align: right;
+    font-family: iransansdn, sans-serif;
+    font-size: 1rem;
+    color: black !important;
+}
+
+.footer-news .btn-light {
+    font-family: iransansdn, sans-serif;
+    background: tomato;
+    color: #e7f1ff;
+}
+
+.footer-project-order div {
+    border: 2px solid #51585e;
+}
+
+.footer-links,
+.footer-news {
+    border-bottom: 2px solid #51585e;
+}
+
+.footer-news label {
+    font-family: iransansdn, sans-serif;
+}
+
+.footer-links .enamad {
+    height: 150px;
+    width: 150px;
+    font-family: iransansdn, sans-serif;
+    color: #ffffff;
+    border: 2px solid #51585e;
+    border-radius: 5px;
+}
+
+.contact-us-links .fa-instagram,
+.fa-whatsapp,
+.fa-telegram {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.fa-phone {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.contact-us-links span {
+    font-family: iransans_num, sans-serif;
+    width: 150px;
+    text-align: left;
+    direction: ltr;
+}
+
+.contact-link {
+    margin: 10px 0 8px 0;
+}
+
+.footer-copy-right {
+    background: #1f1f1f;
+    color: #ffffff;
+    height: auto;
+    border-top: 2px solid #51585e;
+    margin-top: 30px;
+}
+.footer-copy-right .rule-desc{
+    font-family: iransansdn, sans-serif;
+}
+
+
+/* media query */
+@media screen and (max-width:992px ){
+.header-down .nav{
+    display: flex;
+    justify-content: center;
+}
+}
+@media screen and (max-width:768px ){
+    .header-down .nav{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:820px ){
+    .header-down .nav{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:576px ){
+    .header-down .nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
