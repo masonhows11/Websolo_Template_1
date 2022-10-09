@@ -350,7 +350,7 @@
     font-size: 25px;
     color: #818181;
     display: block;
-    transition: 0.3s;
+    /*transition: 0.3s;*/
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -395,6 +395,7 @@
 }
 
 @media screen and (max-width: 576px) {
+
     .header-up-item {
         display: none;
     }
@@ -408,7 +409,13 @@
     .sidenav-open {
         display: block;
     }
+    .sidenav-open .fa-bars{
+        color: #3195FF;
+    }
     .nav-up {
         border-bottom:none;
+    }
+    .nav-side li{
+        text-align: center;
     }
 }
