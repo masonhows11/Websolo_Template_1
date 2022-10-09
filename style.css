@@ -1,31 +1,33 @@
 @import "fonts/font.css";
 /* custom style */
-.btn-auth-sec a {
+
+.header-up-item a{
     line-height: 1.8em;
 }
-
-.btn-auth-sec a {
-    font-family: 'iransansdn', sans-serif;
-}
-
-.btn-auth-sec .btn-light {
-    background: transparent;
-}
-
+.header-up-item .nav-link,
+.header-down-item-left .nav-link ,
+.header-down-item-right .nav-link,
 .btn-auth-sec .btn {
+    font-family: 'iransansdn', sans-serif;
     color: #fff;
 }
-
-.btn-auth-sec .fa-shopping-basket {
+.header-up-item .fa-shopping-basket {
     font-size: 1.8rem;
     color: orangered;
 }
 
-.btn-auth-sec .btn {
+.header-up-item.btn {
     background-color: transparent;
 }
-.btn-auth-sec li{
+.header-up-item li{
     width: 86px;
+}
+.nav-up{
+    border-bottom: 2px solid #51585e;
+}
+.navbar,
+.header-wrap{
+    background: #1f1f1f;
 }
 .navbar-brand {
     font-family: iransans_num_bold, sans-serif;
@@ -33,35 +35,13 @@
     font-weight: bold;
     font-size: 1.8rem;
 }
-.navbar-toggler {
-    background: #FFFFFF;
-}
-.navbar-toggler .fa-bars{
-    font-size: 1.8rem;
-    color: #3195FF;
-}
-.header-wrap .container{
-    border-bottom: 1px solid #51585e;
-}
-/* end navbar */
-.header-down .nav .nav-link {
-    color: #ffffff;
-    font-family: iransansdn, sans-serif;
-}
-.header-down-wrapper,
-.header-wrap {
-    background-color: #1f1f1f;
-}
 
-.header-down {
-    height: auto;
-}
+/* end navbar */
 
 /* heroes */
 .heroes-wrap {
     background-color: #1f1f1f;
 }
-
 
 .heroes-img {
     position: relative;
@@ -341,6 +321,7 @@
 
 
 /* media query */
+/*
 @media screen and (max-width:992px ){
 .header-down .nav{
     display: flex;
@@ -364,4 +345,4 @@
         display: flex;
         flex-direction: column;
     }
-}
+}*/
