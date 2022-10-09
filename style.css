@@ -325,7 +325,11 @@
 .footer-copy-right .rule-desc {
     font-family: iransansdn, sans-serif;
 }
+
 /* The side navigation menu */
+.sidenav-open{
+    display: none;
+}
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -371,6 +375,7 @@
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
+
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
@@ -396,5 +401,14 @@
     .nav-up {
         display: flex;
         flex-flow: row-reverse;
+    }
+    .navbar .nav-down {
+        display: none;
+    }
+    .sidenav-open {
+        display: block;
+    }
+    .nav-up {
+        border-bottom:none;
     }
 }

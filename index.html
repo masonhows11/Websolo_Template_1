@@ -13,22 +13,54 @@
     <script src="scripts.js"></script>
 </head>
 <body>
-<!-- header  -->
 
+
+<!-- start header responsive-->
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
-</div>
 
+    <ul class="navbar-nav  header-up-item  mb-2 mt-3">
+        <li class="nav-item">
+            <a class="nav-link" href="#">خانه</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">نمونه کارها</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">مقالات</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">نکات آموزشی</a>
+        </li>
+        <li class="nav-item nav-sign-in text-center">
+            <a href="#" class="nav-link btn me-2">ورود</a>
+        </li>
+        <li class="nav-item nav-sign-up text-center">
+            <a href="#" class="nav-link btn me-2">ثبت نام</a>
+        </li>
+        <li class="nav-item text-center">
+            <a href="#" class="anchor-shop me-3 ">
+                <i class="fa fa-shopping-basket mt-2"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link about-us" href="#">درباره ما</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link contact-us" href="#">تماس با ما</a>
+        </li>
+    </ul>
+
+</div>
+<!--end header responsive-->
+
+<!--start header  -->
 <nav class="d-flex flex-column navbar navbar-expand-xl navbar-expand-lg navbar-expand-md  navbar-expand-sm ">
 
     <div class="container nav-up">
         <!--   brand in nav menu     -->
-        <a class="navbar-brand" href="#"><img src="images/logo-svg.svg" alt="" width="90" height="70"></a>
-        <span onclick="openNav()"><i class="fa fa-bars fa-2x"></i></span>
+        <a class="navbar-brand" href="#"><img src="images/logo-svg.svg" alt="logo" width="90" height="70"></a>
+        <span onclick="openNav()" class="sidenav-open"><i class="fa fa-bars fa-2x"></i></span>
         <!--  navbar main item      -->
         <ul class="navbar-nav  header-up-item  mb-2 mt-3">
             <li class="nav-item nav-sign-in text-center">
@@ -70,52 +102,20 @@
             </li>
         </ul>
     </div>
-
 </nav>
-<!--<header class="header-wrap">
+<!--end header -->
 
 
-</header>-->
-<!--<div class="row header-down-wrapper">
-           <div class="col-xl-9 col-lg-9 col-md-8 col-sm-7">
 
-               <ul class="navbar-nav header-down-item-left">
-                   <li class="nav-item">
-                       <a class="nav-link about-us" href="#">درباره ما</a>
-                   </li>
-                   <li class="nav-item">
-                       <a class="nav-link contact-us" href="#">تماس با ما</a>
-                   </li>
-               </ul>
 
-               <ul class="navbar-nav header-down-item-right">
-                   <li class="nav-item">
-                       <a class="nav-link" href="#">خانه</a>
-                   </li>
-                   <li class="nav-item">
-                       <a class="nav-link" href="#">نمونه کارها</a>
-                   </li>
-                   <li class="nav-item">
-                       <a class="nav-link" href="#">مقالات</a>
-                   </li>
-                   <li class="nav-item">
-                       <a class="nav-link" href="#">نکات آموزشی</a>
-                   </li>
-               </ul>
-           </div>
-       </div>-->
-<!--  end header  -->
+
 
 
 <!-- heroes -->
 <div class="container-fluid">
     <div class="row heroes-wrap d-flex justify-content-center">
-        <div
-                class="col-xl-9 col-lg-11 col-md-10 col-sm-10  d-flex justify-content-center header-heroes py-4 "
-        >
-            <div
-                    class="heroes-img row d-flex justify-content-center align-items-center align-content-center border border-dark  rounded-3"
-            >
+        <div class="col-xl-9 col-lg-11 col-md-10 col-sm-10  d-flex justify-content-center header-heroes py-4 ">
+            <div class="heroes-img row d-flex justify-content-center align-items-center align-content-center border border-dark  rounded-3">
                 <div class="heroes-content  col-lg-6 text-center">
                     <h1>Web Kadeh</h1>
                     <h4>
