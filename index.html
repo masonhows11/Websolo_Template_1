@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa-IR" dir="rtl">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -10,25 +10,33 @@
     <link rel="stylesheet" href="fontawesome/css/regular.min.css"/>
     <link rel="stylesheet" href="fontawesome/css/solid.min.css"/>
     <link rel="stylesheet" href="style.css"/>
+    <script src="scripts.js"></script>
 </head>
 <body>
 <!-- header  -->
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+</div>
 
 <nav class="d-flex flex-column navbar navbar-expand-xl navbar-expand-lg navbar-expand-md  navbar-expand-sm ">
 
     <div class="container nav-up">
         <!--   brand in nav menu     -->
         <a class="navbar-brand" href="#">وب کده</a>
+        <span onclick="openNav()"><i class="fa fa-bars fa-2x"></i></span>
         <!--  navbar main item      -->
         <ul class="navbar-nav  header-up-item  mb-2 mt-3">
             <li class="nav-item nav-sign-in text-center">
                 <a href="#" class="nav-link btn me-2">ورود</a>
             </li>
-
             <li class="nav-item nav-sign-up text-center">
                 <a href="#" class="nav-link btn me-2">ثبت نام</a>
             </li>
-
             <li class="nav-item text-center">
                 <a href="#" class="anchor-shop me-3 ">
                     <i class="fa fa-shopping-basket mt-2"></i>
