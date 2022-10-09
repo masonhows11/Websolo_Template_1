@@ -332,7 +332,7 @@
 
 }
 @media screen and (max-width:576px){
-.header-up-item .nav-sign-in , .nav-sign-up{
+.header-up-item {
     display: none;
 }
 
