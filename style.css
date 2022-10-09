@@ -338,7 +338,7 @@
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     right: 0;
-    background-color: #111; /* Black*/
+    background-color: #1f1f1f; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     /*transition: ease 0.3s; !* 0.5 second transition effect to slide in the sidenav *!*/
@@ -400,6 +400,9 @@
     }
     .nav-side li {
         text-align: center;
+    }
+    .intro-desc p{
+        font-size: 1rem;
     }
 }
 @media screen and (max-width: 768px ) {
